@@ -1,0 +1,111 @@
+.mario{
+    margin: 70px 200px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background-color: red;
+
+    box-shadow: 
+        /* gorra pimera fila */
+        1em 0  #fe0000, 2em 0  #fe0000, 3em 0  #fe0000, 
+        4em 0  #fe0000, 5em 0  #fe0000,
+        /* gorra segunda fila */
+        -1em 1em  #fe0000, 0 1em #fe0000, 
+        1em 1em #fe0000, 2em 1em #fe0000, 
+        3em 1em #fe0000, 4em 1em #fe0000, 
+        5em 1em #fe0000, 6em 1em #fe0000, 
+        7em 1em #fe0000, 8em 1em #fe0000,
+        /* cara primera linea */
+        -1em 2em #954809, 0 2em #954809, 
+        1em 2em #954809, 2em 2em #954809, 
+        3em 2em #fac090, 4em 2em #fac090, 
+        5em 2em #000, 6em 2em #fac090,
+        /* cara segunda linea */
+        -2em 3em #954809, -1em 3em #fac090,
+        0 3em #954809, 1em 3em #fac090, 
+        2em 3em #fac090, 3em 3em #fac090,
+        4em 3em #fac090, 5em 3em #000,
+        6em 3em #fac090, 7em 3em #fac090, 
+        8em 3em #fac090,
+        /* cara tercera linea */
+        -2em 4em #954809, -1em 4em #fac090,
+        0 4em #954809, 1em 4em #fac090,
+        2em 4em #fac090, 3em 4em #fac090,
+        4em 4em #fac090, 5em 4em #fac090,
+        6em 4em #000, 7em 4em #fac090,
+        8em 4em #fac090, 9em 4em #fac090,
+        /* cara cuarta linea */
+        -2em 5em #954809, -1em 5em #954809,
+        0 5em #fac090, 1em 5em #fac090,
+        2em 5em #fac090, 3em 5em #fac090,
+        4em 5em #fac090, 5em 5em #000,
+        6em 5em #000, 7em 5em #000,
+        8em 5em #000,
+        /* cara quinta linea */
+        0 6em #fac090, 1em 6em #fac090,
+        2em 6em #fac090, 3em 6em #fac090,
+        4em 6em #fac090, 5em 6em #fac090,
+        6em 6em #fac090, 7em 6em #fac090,
+        /* cuello sexta linea */
+        -1em 7em #fe0000, 0 7em #fe0000,
+        1em 7em #0271b8, 2em 7em #fe0000,
+        3em 7em #fe0000, 4em 7em #fe0000,
+        5em 7em #fe0000,
+        -2em 8em #fe0000, -1em 8em #fe0000,
+        0 8em #fe0000, 1em 8em #0271b8,
+        1em 8em #fe0000, 2em 8em #fe0000,
+        3em 8em #fe0000, 4em 8em #0271b8,
+        5em 8em #fe0000, 6em 8em #fe0000,
+        7em 8em #fe0000,
+        /* septima linea  */
+        -3em 9em #fe0000, -2em 9em #fe0000,
+        -1em 9em #fe0000, 0 9em #fe0000,
+        1em 9em #0271b8, 2em 9em #0271b8,
+        3em 9em #0271b8, 4em 9em #0271b8,
+        5em 9em #fe0000, 6em 9em #fe0000,
+        7em 9em #fe0000, 8em 9em #fe0000,
+        /* octava linea */
+        -3em 10em #fac090, -2em 10em #fac090,
+        -1em 10em #fe0000, 0 10em #0271b8,
+        1em 10em #fffb0b, 2em 10em #0271b8,
+        3em 10em #0271b8, 4em 10em #fffb0b,
+        5em 10em #0271b8, 6em 10em #fe0000,
+        7em 10em #fac090, 8em 10em #fac090,
+        /* novena linea */
+        -3em 11em #fac090, -2em 11em #fac090,
+        -1em 11em #fac090, 0 11em #0271b8,
+        1em 11em #0271b8, 2em 11em #0271b8,
+        3em 11em #0271b8, 4em 11em #0271b8,
+        5em 11em #0271b8, 6em 11em #fac090,
+        7em 11em #fac090, 8em 11em #fac090,
+        /* decena linea */
+        -3em 12em #fac090, -2em 12em #fac090,
+        -1em 12em #0271b8, 0 12em #0271b8,
+        1em 12em #0271b8, 2em 12em #0271b8,
+        3em 12em #0271b8, 4em 12em #0271b8,
+        5em 12em #0271b8, 6em 12em #0271b8,
+        7em 12em #fac090, 8em 12em #fac090,
+        /* onceava linea */
+        -1em 13em #0271b8, 0 13em #0271b8,
+        1em 13em #0271b8, 4em 13em #0271b8,
+        5em 13em #0271b8, 6em 13em #0271b8,
+        /* zapatos 1*/
+        -2em 14em #954809, -1em 14em #954809,
+        0 14em #954809, 5em 14em #954809,
+        6em 14em #954809, 7em 14em #954809,
+        /* zapatos 2 */
+        -3em 15em #954809, -2em 15em #954809,
+        -1em 15em #954809, 0 15em #954809,
+        5em 15em #954809, 6em 15em #954809,
+        7em 15em #954809, 8em 15em #954809;
+}
+/* rojo: #fe0000;
+#f00 -> rojo
+#000 -> negro
+#954809 -> marron
+#974807 -> cafe2
+#fac090 -> carne
+#0271b8 -> azul
+#0070c0 -> azul2
+#fffb0b -> amarillo
+#ffff00 -> amarillo2 */
